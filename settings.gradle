@@ -1,0 +1,2 @@
+rootProject.name = "Scheduling Using Graph Coloring"
+include ':app'
