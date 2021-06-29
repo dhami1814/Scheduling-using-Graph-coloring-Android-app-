@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#f0fff0"
+    >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="280dp"
         android:layout_height="34dp"
         android:text="Welcome To Schedule Maker App "
+        android:background="#f0f0f0"
+        android:backgroundTint="@color/purple_200"
         android:fontFamily="sans-serif-black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
